@@ -1,0 +1,47 @@
+<nav class="mobile-nav mob-nav">
+                    <div class="row logo-wrap start-xs middle-xs">
+                        <div class="col-xs-12">
+                            <a href="index.html"><img src="/img/monerujo_logo.png" alt="Monerujo Logo" class="logo"></a>
+                        </div> 
+                    </div>
+                    <input class="burger-check" id="mobile-burger" type="checkbox">
+                    <label for="mobile-burger" class="hamburger hamburger--collapse">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </label>
+                    <div class="slide-in-nav">
+                        <div class="row center-xs">
+                            <div class="col-xs-12">
+                                <ul>
+                                   {% for item in site.data.lang[site.lang].navigation %}
+                                    <li class="nav-item">
+                                        <a href="{{item.url}}">{{item.title}}</a>
+                                    </li>
+                                     {%endfor%}
+                                </ul>
+                            </div>
+                        </div>         
+                    </div>
+               </nav>
+       <div class="container-fluid" id="hero">      
+        <header class="container">               
+               <nav class="desktop-nav container">
+                    <div class="row middle-xs nav-items">
+                            <div class="col-sm-5">
+                                <a href="index.html" class="logo-wrap"><img src="/img/monerujo_logo.png" alt="Monerujo Logo" class="logo"></a>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="row end-xs">
+                                   {% for item in site.data.lang[site.lang].navigation %}
+                                    <div class="col nav-item">
+                                        <a href="{{item.url}}">{{item.title}}</a>
+                                    </div>
+                                     {%endfor%}
+                                </div>
+                            </div>
+                                
+                    </div>
+               </nav>
+           </header>
+        </div>  
