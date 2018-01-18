@@ -1,0 +1,6 @@
+global:
+  language: Español
+  lang-class: spanish
+langs:
+  en: English
+  es: Español

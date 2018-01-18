@@ -1,0 +1,18 @@
+title: Monerujo
+description: Monerujo, an android lightwallet for Monero
+baseurl: ""
+permalink: /:title/
+exclude: [".gitignore", "README.md"]
+# Plugins
+plugins: 
+  - jekyll-multiple-languages-plugin
+  - jekyll-paginate
+
+# paginate
+paginate: 10
+paginate_path: blog/page:num/
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["en", "es"]
+
+exclude_from_localizations: ["img", "css", "font"]
