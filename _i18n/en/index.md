@@ -85,7 +85,7 @@
                       </div>
                       <div class="col-sm-6 col-xs-7 col">
                           <h2>QR Code Scanning</h2>
-                          <p>Typing in Monero addresses manually is a pain, that's why Monerujo comes with a built in QR scanner. Just scan then send. It's that easy.</p>
+                          <p>Typing in Monero addresses manually is a pain. That's why Monerujo comes with a built in QR scanner. Just scan and then send. It's that easy.</p>
                       </div>
                     </div>
                 </div>
