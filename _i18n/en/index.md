@@ -95,7 +95,7 @@
                     <div class="row middle-xs">
                       <div class="col-sm-6 col-xs-7 col">
                           <h2>Open Source</h2>
-                          <p>Monerujo is completely open source. This means that anyone and everyone can look at our code to ensure security. You can have peace of mind and know that your money is safe that would not be present if we were proprietary software.</p>
+                          <p>Monerujo is completely open source. This means that anyone and everyone can look at our code to ensure security. You can have peace of mind and know that your money is safe, something that would not be present if we were proprietary software.</p>
                       </div>
                       <div class="col-sm-6 col-xs-5 col">
                           <img src="/img/gunther-omm-800x.gif" alt="" class="feature_img"/>
