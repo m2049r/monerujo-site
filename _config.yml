@@ -2,7 +2,7 @@ title: Monerujo
 description: Monerujo, an android lightwallet for Monero
 baseurl: ""
 permalink: /:title/
-exclude: [".gitignore", "README.md"]
+exclude: [".gitignore", "README.md", "Gemfile", "Gemfile.lock"]
 # Plugins
 plugins: 
   - jekyll-multiple-languages-plugin
