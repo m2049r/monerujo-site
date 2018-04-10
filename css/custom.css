@@ -2129,6 +2129,7 @@ img.logo {
     -webkit-clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 100%);
     padding: 8rem 0;
+    margin-top: -2.4rem;
 }
 
 #download h4 {
