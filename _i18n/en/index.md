@@ -58,7 +58,7 @@
                        </div>
                        <div class="col-sm-6 col-xs-6 info">
                                     <h1><span>Monerujo</span> <br>Android Wallet for Monero</h1>
-                                       <a href="https://play.google.com/store/apps/details?id=com.m2049r.xmrwallet" class="btn btn-large">Download</a>
+                                       <a href="#download" class="btn btn-large">Download</a>
                                        <a href="https://github.com/m2049r/xmrwallet/tree/v1.2.1/doc" class="btn btn-secondary btn-large">Docs</a>
                        </div>
                     </div>
@@ -121,8 +121,18 @@
                    <div class="row">
                        <div class="col-xs-12">
                            <h2>Download Monerujo</h2>
-                           <h4>Monerujo is available for download on Google Play</h4>
+                           <h4>Monerujo is available for download in the ecosystems below:</h4>
+                       </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4">
                            <p><a href="https://play.google.com/store/apps/details?id=com.m2049r.xmrwallet"><img src="/img/google-play-badge.png" alt="Google Play Badge" class="gp-badge"></a></p>
+                       </div>
+                       <div class="col-xs-12 col-md-4">
+                           <p><a href="https://github.com/m2049r/xmrwallet"><img src="/img/GitHub_Logo.png" alt="Github Logo White" class="gp-badge"></a></p>
+                       </div>
+                       <div class="col-xs-12 col-md-4">
+                           <p><a href="https://f-droid.monerujo.io/"><img src="/img/get_it_on_fdroid.png" alt="F-Droid Badge" class="gp-badge"></a></p>
                        </div>
                    </div>
                 </div>
