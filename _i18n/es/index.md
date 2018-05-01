@@ -59,7 +59,7 @@
                        <div class="col-sm-6 col-xs-6 info">
                                     <h1><span>Monerujo</span> <br>Android Wallet for Monero</h1>
                                        <a href="#download" class="btn btn-large">Download</a>
-                                       <a href="https://github.com/m2049r/xmrwallet/tree/v1.2.1/doc" class="btn btn-secondary btn-large">Docs</a>
+                                       <a href="https://github.com/m2049r/xmrwallet/tree/master/doc" class="btn btn-secondary btn-large">Docs</a>
                        </div>
                     </div>
            </section>
