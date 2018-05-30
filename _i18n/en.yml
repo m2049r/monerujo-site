@@ -1,6 +1,36 @@
 global:
   language: English
   lang-class: english
+  download: Download
+
 langs:
   en: English
   es: Español
+  
+home:
+  android4download: Android Wallet for Monero
+  docs: Docs
+  multiple: Multiple Wallets
+  multiple_para: With Monerujo, you can seamlessly move back and forth between several wallets. Making a new one is as simple as a few taps.
+  qr: QR Code Scanning
+  qr_para: Typing in Monero addresses manually is a pain. That's why Monerujo comes with a built in QR scanner. Just scan and then send. It's that easy.
+  open-source: Open Source
+  open-source_para: Monerujo is completely open source. This means that anyone and everyone can look at our code to ensure security. You can have peace of mind and know that your money is safe, something that would not be present if we were proprietary software.
+  btc: Pay BTC Addresses
+  btc_para: With the power of the XMR.to service, Monerujo can now pay any BTC address. Just scan the QR code or paste the BTC address into the send field, and the magic happens seamlessly in the background.
+  download: Download Monerujo
+  download_para: Monerujo is available for download in the ecosystems below
+
+resources:
+  resources: Resources
+  construction: Under construction. Check back soon.
+
+footer:
+  help: Need help?
+  help_para: Contact us at
+  donate: Donate
+  donate_para: If you want to support Monerujo, please send XMR to the following address
+  resources: Resources
+  github-docs: GitHub Documentation
+  monero: The Monero Project
+  license: Licensing Information
