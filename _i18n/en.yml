@@ -6,7 +6,8 @@ global:
 langs:
   en: English
   es: Español
-  
+  fr: Français
+
 home:
   android4download: Android Wallet for Monero
   docs: Docs

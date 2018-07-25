@@ -1,0 +1,37 @@
+global:
+  language: Français
+  lang-class: french
+  download: Téléchargement
+
+langs:
+  en: English
+  es: Español
+  fr: Français
+
+home:
+  android4download: Portefeuille Monero Android
+  docs: Docs
+  multiple: Multiples Portefeuilles
+  multiple_para: Avec Monerujo, vous pouvez sans problème naviguer entre différents portefeuilles. En créer un nouveau se fait en quelques tapes.
+  qr: Scanner un QR Code
+  qr_para: Saisir une adresse Monero manuellement est rébarbatif. C'est pourquoi Monerujo est fourni avec un scanner de QR code intégré. Contentez-vous de scanner et d'envoyer. C'est aussi simple que cela.
+  open-source: Open Source
+  open-source_para: Monerujo est totalement open source. Cela signifie que chacun peut vérifier le code pour s'assurer de sa propre sécurité. Vous pouvez être tranquille en sachant que votre argent est en lieu sûr, ce que vous n'auriez pas si nous étions un logiciel propriétaire.
+  btc: Payer à une adresse BTC
+  btc_para: Grâce à la puissance du service XMR.to, Monerujo peut payer n'importe quelle adresse BTC. Scannez simplement le QR code ou collez l'adresse BTC dans le champ envoyer, et la magie opérera en douceur en arrière-plan.
+  download: Télécharger Monerujo
+  download_para: Monerujo est disponible au téléchargement dans les écosystèmes ci-dessous
+
+resources:
+  resources: Ressources
+  construction: En construction. Revenez plus tard.
+
+footer:
+  help: Besoin d'aide ?
+  help_para: Contactez-nous à
+  donate: Faire un don
+  donate_para: Si vous voulez soutenir Monerujo, merci d'envoyer des XMR à l'adresse suivante
+  resources: Ressources
+  github-docs: Documentation GitHub
+  monero: Le Projet Monero
+  license: Conditions de License
