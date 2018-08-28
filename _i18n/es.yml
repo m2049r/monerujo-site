@@ -26,6 +26,12 @@ resources:
   resources: Resources
   construction: Under construction. Check back soon.
 
+blog:
+  title: Recent News
+  summary: Here you'll find some news about Monerujo android App
+  author: Posted by
+  date: Posted at
+
 footer:
   help: Need help?
   help_para: Contact us at

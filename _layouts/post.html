@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div id="page">
+      {% include navigation.html %}
+      <section class="container-fluid" id="privacy">
+        <div class="site-section container">
+          <div class="row middle-xs">
+            <div class="col-xs-12">
+              <h2>{{ page.title }}</h2>
+              <p class="author">{% t blog.author %}: {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</p>
+              <p>{{ page.date | date: '%B %d, %Y' }}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid" id="privacy">
+        <div class="site-section container">
+          <div class="row middle-xs">
+            <div class="col-xs-12">
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </section>
+      <br/>
+      <br/>
+  		{% include footer.html %}
+    </div>
+  </body>
+</html>
