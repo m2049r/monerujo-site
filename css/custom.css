@@ -1252,6 +1252,7 @@ a.btn {
 a.btn:hover, a.btn:focus, a.btn:active {
     text-shadow: none;
     background-color: #efefef;
+    box-shadow: 0 4px 20px rgba(50,50,93,.11), 0 1px 20px rgba(0,0,0,.08);
 }
 
 a.btn-secondary {
@@ -1409,9 +1410,12 @@ h1 span {
 
 h1 {
     font-size: 2.5rem;
-    line-height: 1.7;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
+}
+
+#hero h1 {
+    line-height: 1.7;
 }
 
 h2, h3, h4 {
@@ -1435,7 +1439,12 @@ h4 {
     font-size: 3.5rem;
 }
 
-#privacy p {
+#resources h1, #team h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#privacy p, #resources p {
     line-height: 1.7;
 }
 
@@ -1470,7 +1479,7 @@ h4 {
     line-height: 1.7;
 }
     
-#privacy h1 {
+#privacy h1, #resources h1, #team h1 {
     font-size: 2.8rem;
 }
         
@@ -1500,7 +1509,7 @@ h4 {
     line-height: 1.7;
 }
     
-#privacy h1 {
+#privacy h1, #resources h1, #team h1 {
     font-size: 2.5rem;
 }
     
@@ -1525,7 +1534,7 @@ h4 {
     font-size: 1.4rem;
 }
     
-#privacy h1 {
+#privacy h1, #resources h1, #team h1 {
     font-size: 2.3rem;
 }
     
@@ -1555,7 +1564,7 @@ h4 {
     line-height: 1.7;
 }
     
-#privacy h1 {
+#privacy h1, #resources h1, #team h1 {
     font-size: 2rem;
 }
 
@@ -1856,6 +1865,17 @@ img.logo {
     color: #ffffff;
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 100%);
     clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 100%);
+}
+
+.desk-nav {
+    background-color: #f05322;
+    background: -webkit-linear-gradient(left, #f05322, #ed1d56);
+    background: -o-linear-gradient(left, #f05322, #ed1d56);
+    background: linear-gradient(to right, #f05322, #ed1d56);
+    background-image: url(../img/monerujo-background.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
 }
 
 #hero_content {
@@ -2190,6 +2210,32 @@ img.logo {
 }
 
 
+/**********TEAM PAGE********/
+
+.team .glamour {
+    width: inherit;
+}
+
+.team .team-guys {
+    margin-top: 1rem;
+}
+
+.team-guys .team-member {
+    margin: 1.5rem 0;
+}
+
+.team-guys .col-xs.team-member {
+    -ms-flex-preferred-size: 41%;
+    flex-basis: 41%;
+    max-width: 41%;
+}
+
+
+#team h3 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
 /**********FOOTER********/
 
 footer {
@@ -2302,10 +2348,110 @@ footer .bottom_row {
     margin-top: 4rem;
 }
     
+.team-guys .col-xs.team-member {
+    -ms-flex-preferred-size: 80%;
+    flex-basis: 80%;
+    max-width: 80%;
+    background-color: aliceblue;
+}
+    
 }
 
 @media only screen and (max-width: 30rem) {
   
+    
+}
+
+/*********Resources*********/
+#resources {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: #efefef;
+}
+
+#team {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#resources .col-xs.guide_link {
+    -ms-flex-preferred-size: 47%;
+    flex-basis: 47%;
+    max-width: 47%;
+    margin: 1rem 0;
+    padding: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#resources .col-xs.guide_link a {
+    display: block;
+    height: 100%;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    text-align: center;
+    border-radius: 10px;
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    transition: all .15s ease;
+    font-size: 1.2rem;
+}
+
+#resources .col-xs.guide_link a:hover, #resources .col-xs.guide_link a:active, #resources .col-xs.guide_link a:active {
+    box-shadow: 0 4px 20px rgba(50,50,93,.11), 0 1px 20px rgba(0,0,0,.08);
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 75rem) {}
+
+@media only screen and (max-width: 62rem) {  
+    
+#resources, #team {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+    
+.intro-text {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+}
+
+@media only screen and (max-width: 48rem) {
+
+#resources, #team {
+    padding: 6rem 1rem 2rem 1rem;
+}
+    
+#resources .col-xs.guide_link {
+    -ms-flex-preferred-size: 49%;
+    flex-basis: 48%;
+    max-width: 48%;
+}
+    
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.5!important;
+}
+    
+}
+
+@media only screen and (max-width: 30rem) {
+
+#resources .col-xs.guide_link {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin: 0.5rem 0;
+}
     
 }
   
