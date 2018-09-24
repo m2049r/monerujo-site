@@ -1,7 +1,7 @@
 title: Monerujo
 description: Monerujo, an android lightwallet for Monero
 baseurl: ""
-permalink: /:title/
+permalink: date
 exclude: [".gitignore", "README.md", "Gemfile", "Gemfile.lock"]
 # Plugins
 plugins:
@@ -10,9 +10,9 @@ plugins:
 
 # paginate
 paginate: 10
-paginate_path: blog/page:num/
+paginate_path: "blog/page:num/"
 
 # jekyll-multiple-languages-plugin settings:
 languages: ["en", "es", "fr"]
 
-exclude_from_localizations: ["img", "css", "font"]
+exclude_from_localizations: ["img", "css", "font", "_posts"]

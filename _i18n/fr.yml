@@ -26,6 +26,12 @@ resources:
   resources: Ressources
   construction: En construction. Revenez plus tard.
 
+blog:
+  title: Dernières Nouvelles
+  summary: Vous trouverez ici les actualités de l'application android Monerujo
+  author: Posté par
+  date: Posté à
+
 footer:
   help: Besoin d'aide ?
   help_para: Contactez-nous à

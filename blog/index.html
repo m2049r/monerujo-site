@@ -1,0 +1,60 @@
+---
+permalink: blog
+layout: custom
+---
+
+<section class="container-fluid" id="privacy">
+  <div class="site-section container">
+    <div class="row middle-xs">
+      <div class="col-xs-12">
+        <h1>{% t blog.title %}</h1>
+        <p>{% t blog.summary %}</p>
+        <br/>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container-fluid" id="privacy">
+  <div class="site-section container">
+    <div class="row middle-xs">
+      <div class="col-xs-12">
+        <ul>
+          {% for post in paginator.posts %}
+            <li>
+              <p><h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              {{ post.date | date: '%B %d, %Y' }}</p>
+              <p>{{ post.summary }}</p>
+              <br/>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if paginator.total_pages > 1 %}
+<div class="text-center page-numbers"><h4>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/blog' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: '/' | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</h4></div>
+{% endif %}
