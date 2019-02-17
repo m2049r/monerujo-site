@@ -1400,6 +1400,14 @@ a.btn {
 }
 
 /*********FONT STYLING*******/
+#hero h1 {
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
 
 h1 span {
     font-size: 5rem;
@@ -1410,29 +1418,18 @@ h1 span {
 
 h1 {
     font-size: 2.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
 }
-
-#hero h1 {
-    line-height: 1.7;
-}
-
-h2, h3, h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-}
-
 
 h2 {
-    font-size: 2.375rem;
-    line-height: 1.5;
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 2.0rem;
 }
 
 h4 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    padding-top: 1rem;
+    font-size: 1.7rem;
 }
 
 #privacy h1 {
@@ -1455,120 +1452,122 @@ h4 {
 
 
 @media only screen and (max-width: 75rem) {
-    
-h1 span {
-    font-size: 4rem;
-}    
-   
-h1 {
-    font-size: 1.8rem;
-}
+  h1 span {
+      font-size: 4rem;
+  }    
+     
+  h1 {
+      font-size: 2.0rem;
+  }
 
-h2 {
-    font-size: 2rem;
-}
+  h2 {
+      font-size: 1.8rem;
+  }
 
-h4 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    padding-top: 1rem;
-}
-    
-.features p {
-    font-size: 1.2rem;
-    line-height: 1.7;
-}
-    
-#privacy h1, #resources h1, #team h1 {
-    font-size: 2.8rem;
-}
-        
+  h3 {
+      font-size: 1.6rem;
+  }
+
+  h4 {
+      font-size: 1.3rem;
+  }
+      
+  .features p {
+      font-size: 1.2rem;
+      line-height: 1.7;
+  }
+      
+  #privacy h1, #resources h1, #team h1 {
+      font-size: 2.8rem;
+  }
 }
 
 @media only screen and (max-width: 62rem) {
-    
-h1 span {
-    font-size: 3rem;
-}    
-   
-h1 {
-    font-size: 1.6125rem;
-}
+  h1 span {
+      font-size: 3rem;
+  }    
+     
+  h1 {
+      font-size: 1.5rem;
+  }
 
-h2 {
-    font-size: 1.8rem;
-}
+  h2 {
+      font-size: 1.3rem;
+  }
 
+  h3 {
+      font-size: 1.2rem;
+  }
 
-h4 {
-    font-size: 1.4rem;
-}
-    
-.features p {
-    font-size: 1.15rem;
-    line-height: 1.7;
-}
-    
-#privacy h1, #resources h1, #team h1 {
-    font-size: 2.5rem;
-}
-    
+  h4 {
+      font-size: 1.0rem;
+  }
+      
+  .features p {
+      font-size: 1.15rem;
+      line-height: 1.7;
+  }
+      
+  #privacy h1, #resources h1, #team h1 {
+      font-size: 2.5rem;
+  }
 }
 
 @media only screen and (max-width: 48rem) {
-    
-h1 span {
-    font-size: 2.8rem;
-}    
-   
-h1 {
-    font-size: 1.3rem;
-}
+  h1 span {
+      font-size: 2.8rem;
+  }    
+     
+  h1 {
+      font-size: 1.4rem;
+  }
 
-h2 {
-    font-size: 1.6rem;
-}
+  h2 {
+      font-size: 1.2rem;
+  }
 
+  h3 {
+      font-size: 1.1rem;
+  }
 
-h4 {
-    font-size: 1.4rem;
-}
-    
-#privacy h1, #resources h1, #team h1 {
-    font-size: 2.3rem;
-}
-    
+  h4 {
+      font-size: 0.9rem;
+  }
+      
+  #privacy h1, #resources h1, #team h1 {
+      font-size: 2.3rem;
+  }
 }
 
 @media only screen and (max-width: 30rem) {
-    
-h1 span {
-    font-size: 2.1rem;
-}    
-   
-h1 {
-    font-size: 1.2rem;
-}
+  h1 span {
+      font-size: 2.1rem;
+  }    
+     
+  h1 {
+      font-size: 1.1rem;
+  }
 
-h2 {
-    font-size: 1.5rem;
-}
+  h2 {
+      font-size: 0.9rem;
+  }
 
+  h3 {
+      font-size: 0.8rem;
+  }
 
-h4 {
-    font-size: 1.5rem;
-}
-    
-.features p {
-    font-size: 1rem;
-    line-height: 1.7;
-}
-    
-#privacy h1, #resources h1, #team h1 {
-    font-size: 2rem;
-}
-
-    
+  h4 {
+      font-size: 0.7rem;
+  }
+      
+  .features p {
+      font-size: 1rem;
+      line-height: 1.7;
+  }
+      
+  #privacy h1, #resources h1, #team h1 {
+      font-size: 2rem;
+  }
 }
 
 /*********NAVIGATION*********/
@@ -2490,4 +2489,34 @@ footer .bottom_row {
 }
 
 @media only screen and (max-width: 30rem) {}
+
+/**** Blog ****/
+.blog {
+    padding-top: 1.5rem;
+}
+
+.blog-section {
+    padding-top: 2.0rem;
+}
+
+.blog-section h1, h2, h3, h4 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-list {
+    padding-top: 0.0rem;
+    padding-bottom: 1.5rem;
+}
+
+.blog-list h1, h2, h3, h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 62rem) {
+  .blog {
+      padding-top: 4.5rem;
+  }
+}
 
