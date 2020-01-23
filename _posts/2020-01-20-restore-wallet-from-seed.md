@@ -2,7 +2,7 @@
 layout: post
 title: "You want to get your wallet back and you have your seed"
 category: faq
-summary: "Announcing the blog"
+summary: "How to restore a wallet from a mnemonic seed"
 author: anhdres
 ---
 
