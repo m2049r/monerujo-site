@@ -33,3 +33,10 @@
 8. Optionally you can also write down the Restore Height and the Restore Password. These may come in handy if you need to backup or troubleshoot a wallet corruption. Convenient but not critical like the Mnemonic Seed.
 9. Click on I HAVE NOTED THE MNEMONIC SEED. You'll be taken back to the main screen and the newly created wallet should be there. 
 
+## Why does Monerujo ask for access to my external storage?
+
+Monerujo needs to create files on your phone for every wallet you create in the app, and then it will have to read from them and update as you use your wallets. Without this permission the app cannot work.
+
+## Why does Monerujo ask for access to my camera?
+
+The app needs permission from you to turn on the camera to scan QR codes. That feature can be very useful to send money to another wallet without having to copy and pasting address "manually". This is not a critical permission.
