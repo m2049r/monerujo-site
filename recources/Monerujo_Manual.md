@@ -1,8 +1,9 @@
 # Mystical Monerujo Manual
 
 ---
+## I want to...
 
-## You want to get your wallet back and you have your seed
+### You want to get your wallet back and you have your seed
 
 1. Click on the + button on the main screen.
 2. Choose *Restore wallet 25 word seed*.
@@ -33,6 +34,10 @@
 7. Monerujo will display the details screen. It's very important that you write down the Mnemonic Seed. This list of random words give you (or anybody with it) the power to recreate this wallet in Monerujo or any other standard Monero wallet. Don't copy and paste it on your phone. Write it down physically and store it somewhere both safe and secret.
 8. Optionally you can also write down the Restore Height and the Restore Password. These may come in handy if you need to backup or troubleshoot a wallet corruption. Convenient but not critical like the Mnemonic Seed.
 9. Click on I HAVE NOTED THE MNEMONIC SEED. You'll be taken back to the main screen and the newly created wallet should be there. 
+
+---
+
+## Why...
 
 ## Why does Monerujo ask for access to my external storage?
 
