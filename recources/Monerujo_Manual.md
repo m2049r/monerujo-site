@@ -1,7 +1,7 @@
 # Mystical Monerujo Manual
 
 ---
-## I want to...
+## How to…
 
 ### You want to get your wallet back and you have your seed
 
@@ -13,7 +13,7 @@
 6. Click on *MAKE ME A WALLET ALREADY*
 7. Done. Monerujo will need to sync your wallet (scan the blockchain for transactions belonging to you). Duration will be proportional to how far away in time you’re making it check for them.
 
-## You have moneroj on your wallet but you need to send bitcoins
+### You have moneroj on your wallet but you need to send bitcoins
 
 1. Open a wallet. It will make you wait until it’s fully synced.
 2. Click on *GIVE*
@@ -23,7 +23,7 @@
 6. Click *CONFIRM*
 7. It will prepare your transaction. Once it’s ready, it will display its details. If everything looks right, just click on *SPEND MY SWEET MONEROJ*
 
-## You want to create a completely new wallet
+### You want to create a completely new wallet
 
 1. On the main screen, click on the + button.
 2. Click on *Create new wallet*
@@ -37,12 +37,12 @@
 
 ---
 
-## Why...
+## FAQ…
 
-## Why does Monerujo ask for access to my external storage?
+### Why does Monerujo ask for access to my external storage?
 
 Monerujo needs to create files on your phone for every wallet you create in the app, and then it will have to read from them and update as you use your wallets. Without this permission the app cannot work.
 
-## Why does Monerujo ask for access to my camera?
+### Why does Monerujo ask for access to my camera?
 
 The app needs permission from you to turn on the camera to scan QR codes. That feature can be very useful to send money to another wallet without having to copy and pasting address "manually". This is not a critical permission.
