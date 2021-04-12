@@ -1,4 +1,4 @@
-# Magical Monerujo Manual
+# Mystical Monerujo Manual
 
 ---
 ## You want to get your wallet back and you have your seed
