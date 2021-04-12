@@ -1,7 +1,7 @@
 # Mystical Monerujo Manual
 
 ---
-[create an anchor](#anchors-in-markdown)
+
 ## You want to get your wallet back and you have your seed
 
 1. Click on the + button on the main screen.
