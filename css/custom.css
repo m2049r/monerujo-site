@@ -2351,7 +2351,6 @@ footer .bottom_row {
     -ms-flex-preferred-size: 80%;
     flex-basis: 80%;
     max-width: 80%;
-    background-color: aliceblue;
 }
     
 }
@@ -2499,7 +2498,7 @@ footer .bottom_row {
     padding-top: 2.0rem;
 }
 
-.blog-section h1, h2, h3, h4 {
+.blog-section h1, .blog-section h2, .blog-section h3, .blog-section h4 {
     margin-top: 2rem;
     margin-bottom: 0.5rem;
 }
@@ -2509,7 +2508,7 @@ footer .bottom_row {
     padding-bottom: 1.5rem;
 }
 
-.blog-list h1, h2, h3, h4 {
+.blog-list h1, .blog-list h2, .blog-list h3, .blog-list h4 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
