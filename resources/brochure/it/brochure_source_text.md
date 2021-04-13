@@ -1,3 +1,7 @@
+---
+layout: resource
+---
+
 `FRONT`
 
 `1`
