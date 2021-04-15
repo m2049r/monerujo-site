@@ -15,18 +15,18 @@ There are several languages available, along with their source texts in markdown
 ## English
 [Source text]({% link resources/brochure/brochure_source_text.md %})
 
-[front]({% link resources/brochure/welcometomonero_a.jpg %})
-[back]({% link resources/brochure/welcometomonero_b.jpg %})
+![front]({% link resources/brochure/welcometomonero_a.jpg %})
+![back]({% link resources/brochure/welcometomonero_b.jpg %})
 
 ## Español
 [Source text]({% link resources/brochure/brochure_source_text.md %})
 
-[front]({% link resources/brochure/es/welcometomonero_a.jpg %})
-[back]({% link resources/brochure/es/welcometomonero_b.jpg %})
+![front]({% link resources/brochure/es/welcometomonero_a.jpg %})
+![back]({% link resources/brochure/es/welcometomonero_b.jpg %})
 
 
 ## Italiano
 [Source text]({% link resources/brochure/it/brochure_source_text.md %})
 
-[front]({% link resources/brochure/it/welcometomonero_a.jpg %})
-[back]({% link resources/brochure/it/welcometomonero_b.jpg %})
+![front]({% link resources/brochure/it/welcometomonero_a.jpg %})
+![back]({% link resources/brochure/it/welcometomonero_b.jpg %})
