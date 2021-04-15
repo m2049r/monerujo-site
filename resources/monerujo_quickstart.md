@@ -4,7 +4,7 @@ layout: resource
 
 # Monerujo Quickstart Materials
 
-![front]({% link resources/brochure/MonerujoBrochuere_web %})
+![front]({% link resources/MonerujoBrochuere_web.jpg %})
 
 These files are useful to onboard someone that is very new to the whole idea of Monero and not technically savvy. It features an extremely brief introduction to Monero and instructions on how to download Monerujo, create or restore a wallet, and receive and send moneroj.
 
