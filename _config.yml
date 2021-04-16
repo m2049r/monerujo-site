@@ -13,6 +13,5 @@ paginate: 10
 paginate_path: "blog/page:num/"
 
 # jekyll-multiple-languages-plugin settings:
-languages: ["en", "es", "fr"]
-
-exclude_from_localizations: ["img", "css", "font", "_posts"]
+languages: ["en"]
+exclude_from_localizations: ["img", "css", "font", "_posts" ]
