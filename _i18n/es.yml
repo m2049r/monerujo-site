@@ -9,35 +9,35 @@ langs:
   fr: Français
 
 home:
-  android4download: Android Wallet for Monero
-  docs: Docs
-  multiple: Multiple Wallets
-  multiple_para: With Monerujo, you can seamlessly move back and forth between several wallets. Making a new one is as simple as a few taps.
-  qr: QR Code Scanning
-  qr_para: Typing in Monero addresses manually is a pain. That's why Monerujo comes with a built in QR scanner. Just scan and then send. It's that easy.
-  open-source: Open Source
-  open-source_para: Monerujo is completely open source. This means that anyone and everyone can look at our code to ensure security. You can have peace of mind and know that your money is safe, something that would not be present if we were proprietary software.
-  btc: Pay BTC Addresses
-  btc_para: With the power of the SideShift.ai service, Monerujo can pay any BTC address. Just scan the QR code or paste the BTC address into the send field, and the magic happens seamlessly in the background.
-  download: Download Monerujo
-  download_para: Monerujo is available for download in the ecosystems below
+  android4download: Monedero de Monero en Android
+  docs: Documentos
+  multiple: Múltiples Monederos
+  multiple_para: Con Monerujo, puedes moverte entre varios monederos como si nada. Y crear uno nuevo con sólo un par de toques.
+  qr: Suporte para Códigos QR
+  qr_para: Escribir direcciones de Monero a mano es puro dolor. Por eso, Monerujo puede leer códigos QR con tu cámara. Simplemente escanea y envía, así de fácil.
+  open-source: Código Abierto
+  open-source_para: Monerujo es totalmente open source. Significa que cualquiera puede hechar vistazo a nuestro código para verificar que sea seguro. Así tu mente tranquila sabiendo que tu dinero está seguro, algo imposible del todo con aplicaciones de código cerrado.
+  btc: Paga en otras Criptomonedas
+  btc_para: Gracias a la integración de SideShift.ai, Monerujo puede enviar BTC, LTC, ETH, DASH o DOGE. Sólo escanea o pega una dirección correspondiente al enviar, y la magia sucederá sin salir siquiera de la aplicación.
+  download: Descarga Monerujo
+  download_para: Monerujo está disponible para descargarlo de las siguientes fuentes:
 
 resources:
-  resources: Resources
-  construction: Under construction. Check back soon.
+  resources: Recursos
+  construction: En construcción. Regresa pronto.
 
 blog:
-  title: Recent News
-  summary: Here you'll find some news about Monerujo
-  author: Posted by
-  date: Posted at
+  title: Últimas Noticias
+  summary: Aquí encontrarás algunos anuncios sobre Monerujo
+  author: Escrito por
+  date: Publicado en
 
 footer:
-  help: Need help?
-  help_para: Contact us at
-  donate: Donate
-  donate_para: If you want to support Monerujo, please send XMR to the following address
-  resources: Resources
-  github-docs: GitHub Documentation
-  monero: The Monero Project
-  license: Licensing Information
+  help: ¿Necesitas ayuda?
+  help_para: Contáctanos en
+  donate: Dona
+  donate_para: Si quieres apoyar el desarrollo de Monerujo, por favor envía XMR a la siguiente dirección:
+  resources: Recursos
+  github-docs: Documentación de GitHub
+  monero: El Proyecto Monero
+  license: Información sobre la Licencia
