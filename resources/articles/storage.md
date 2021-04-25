@@ -25,4 +25,7 @@ Kfijis fisdjfsdujgh sdgb sdkgsdg
 *fghfgh
 
 
+
 ## How to backup your wallet
+## How to restore your backup
+## How to move your wallet to another app
