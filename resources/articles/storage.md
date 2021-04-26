@@ -1,3 +1,7 @@
+---
+layout: resource
+---
+
 # Where Monerujo stores your wallets
 
 Since version 2.x 'Puginarug' Monerujo changed the place where it saves your wallets' files. Let's break it down:

@@ -892,7 +892,7 @@
 /*********NORMALIZE*******/
 
 html {
-  line-height: 1.15;
+  line-height: 1.5;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -1129,13 +1129,8 @@ blockquote, body, button, dd, dl, figure, h1, h2, h3, h4, h5, h6, ol, p, pre, ul
     padding: 0;
 }
 
-ol, ul {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
-    display: block;
     color: #E73449;
 }
 
