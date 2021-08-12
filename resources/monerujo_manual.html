@@ -125,7 +125,7 @@
 <hr />
 <h2 id="how-to">How to…</h2>
 
-<h3 id="you-want-to-get-your-wallet-back-and-you-have-your-seed">You want to get your wallet back and you have your seed</h3>
+<h3 id="how-to-get-your-wallet-back-if-you-have-your-seed">How to get your wallet back if you have your seed</h3>
 
 <ol>
   <li>Click on the + button on the main screen.</li>
@@ -137,19 +137,21 @@
   <li>Done. Monerujo will need to sync your wallet (scan the blockchain for transactions belonging to you). Duration will be proportional to how far away in time you’re making it check for them.</li>
 </ol>
 
-<h3 id="you-have-moneroj-on-your-wallet-but-you-need-to-send-bitcoins">You have moneroj on your wallet but you need to send bitcoins</h3>
+<h3 id="how-to-send-bitcoins-or-other-cryptocurrencies-with-the-moneroj-on-your-wallet">How to send bitcoins or other cryptocurrencies with the moneroj on your wallet</h3>
+
+<p>Monerujo has the <a href="https://sideshift.ai">SideShift.ai</a> exchange service integrated in the app. At the moment, it allows you to trade XMR for BTC, LTC, ETH, DASH, or DOGE. This mean that you can for example pay for a service online that doesn’t accept Monero, but does some of the other currencies, without leaving the app.</p>
 
 <ol>
   <li>Open a wallet. It will make you wait until it’s fully synced.</li>
   <li>Click on <em>GIVE</em></li>
-  <li>You need to provide the receiver’s address now. You can either paste a Bitcoin address or scan a QR code. It will let you know that you’ve entered one and that the conversion is going to be handled by XMR.to</li>
+  <li>You need to provide the receiver’s address now. You can either paste a Bitcoin, Litecoin, Ethereum, Dash, or Dogecoin address or scan a QR code. It will let you know that you’ve entered one, what’s the selected destination currency, and that the conversion is going to be handled by SideShift.ai</li>
   <li>Click on <em>AMOUNT</em></li>
-  <li>Enter the amount you want to send. You can choose to do this in Bitcoin or any of the other currencies by clicking on the <em>BTC</em> button.</li>
+  <li>Enter the amount you want to send. You can choose to do this in any of the other currencies by switching the ticker button.</li>
   <li>Click <em>CONFIRM</em></li>
   <li>It will prepare your transaction. Once it’s ready, it will display its details. If everything looks right, just click on <em>SPEND MY SWEET MONEROJ</em></li>
 </ol>
 
-<h3 id="you-want-to-create-a-completely-new-wallet">You want to create a completely new wallet</h3>
+<h3 id="how-to-create-a-completely-new-wallet">How to create a completely new wallet</h3>
 
 <ol>
   <li>On the main screen, click on the + button.</li>
@@ -163,17 +165,48 @@
   <li>Click on I HAVE NOTED THE MNEMONIC SEED. You’ll be taken back to the main screen and the newly created wallet should be there.</li>
 </ol>
 
+<h3 id="how-to-make-a-backup-of-your-wallet">How to make a backup of your wallet</h3>
+
+<ol>
+  <li>On the main screen, click on the dots menu next to your wallet’s name.</li>
+  <li>Click on <em>Backup</em></li>
+  <li>Monerujo will open your phone’s file browser and ask for a destination folder and suggest a filename. Once you press <em>SAVE</em> it will create and save a zip file with your wallet’s files in it, on that location.</li>
+</ol>
+
+<p>Please remember that the zip file will be encrypted with your <em>Wallet Files Restore Password</em> also known as <em>CrAzYpass</em>. If you haven’t written it down before, you can find it on the secrets screen of your wallet. Please write it down as it’s very helpful to recover past backups.</p>
+
+<p>Please also be aware that the backup is for that specific wallet. If you have more than one, you’ll need to make a separate backup with specific restore passwords for each.</p>
+
+<h3 id="how-to-restore-a-backup-of-your-wallet">How to restore a backup of your wallet</h3>
+
+<ol>
+  <li>On the main screen, click on the dots menu at the top right of your screen.</li>
+  <li>Click on <em>Import wallet</em></li>
+  <li>Monerujo will open a file browser asking for you wallet’s backup zip file. Find and select yours.</li>
+  <li>If everything goes well, it should take you back to the main screen, and you should see a new wallet there, with the name of your backup wallet.</li>
+</ol>
+
+<p>If you’re using the same device and Monerujo installation that you used to create the backup, you will be able to open the wallet with your chosen password just as if nothing happened. But in case you switched devices or uninstalled Monerujo in between, you’ll need the <em>Wallet Files Restore Password</em> to open your wallet again, and being able to change the password to one of your liking. You can find that password on the wallet’s secrets screen. Please write it down when you make a backup.</p>
+
 <hr />
 
 <h2 id="faq">FAQ…</h2>
 
 <h3 id="why-does-monerujo-ask-for-access-to-my-external-storage">Why does Monerujo ask for access to my external storage?</h3>
 
-<p>Monerujo needs to create files on your phone for every wallet you create in the app, and then it will have to read from them and update as you use your wallets. Without this permission the app cannot work.</p>
+<p>Monerujo will need your permission to create files on your phone if you create a manual backup of your wallet files, and then it will have to read from them to restore them. If you’re not making or restoring backups, that permission is not necessary.</p>
 
 <h3 id="why-does-monerujo-ask-for-access-to-my-camera">Why does Monerujo ask for access to my camera?</h3>
 
 <p>The app needs permission from you to turn on the camera to scan QR codes. That feature can be very useful to send money to another wallet without having to copy and pasting address “manually”. This is not a critical permission.</p>
+
+<h3 id="what-is-the-crazypass">What is the CrAzYpass?</h3>
+
+<p>The CrAzYpass or <em>Wallet Files Restore Password</em> if the password Monerujo uses to encrypt your wallet files on you phone. It’s very long and crazy secure, and generated when you create your wallet in Monerujo. The magic trick is allowing you to open the wallet and spend funds from it with the easier human-friendly password you choose, while encrypting the wallet files with that secure password, so anyone with access to your wallet files can’t brute force them.</p>
+
+<p>You should write the CrAzYpass down along with your mnemonic seed when you create a new wallet, since it’s useful to restore your wallet in a future Monerujo installation, or take it to any other standard Monero wallet, and carry your transaction notes, and subaddresses and accounts labels with you.</p>
+
+<p>You can find this restore password on the secrets screen of each wallet, by clicking on the wallet’s dots menu and choosing <em>Show Secrets!</em></p>
 
           </div>
         </div>
