@@ -21,7 +21,7 @@ There are several languages available, along with their source texts in markdown
 ![back]({% link resources/brochure/welcometomonero_b.jpg %})
 
 ## Español
-[Source text]({% link resources/brochure/brochure_source_text.md %})
+[Source text]({% link resources/brochure/es/brochure_source_text.md %})
 
 ![front]({% link resources/brochure/es/welcometomonero_a.jpg %})
 ![back]({% link resources/brochure/es/welcometomonero_b.jpg %})
@@ -32,3 +32,10 @@ There are several languages available, along with their source texts in markdown
 
 ![front]({% link resources/brochure/it/welcometomonero_a.jpg %})
 ![back]({% link resources/brochure/it/welcometomonero_b.jpg %})
+
+
+## Português
+[Source text]({% link resources/brochure/pt/brochure_source_text.md %})
+
+![front]({% link resources/brochure/pt/welcometomonero_pt_a.jpg %})
+![back]({% link resources/brochure/pt/welcometomonero_pt_b.jpg %})
