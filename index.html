@@ -10,7 +10,7 @@ permalink: index
                     <div class="row logo-wrap start-xs middle-xs">
                         <div class="col-xs-12">
                             <a href="index.html"><img src="/img/monerujo_logo.png" alt="Monerujo Logo" class="logo"></a>
-                        </div> 
+                        </div>
                     </div>
                     <input class="burger-check" id="mobile-burger" type="checkbox">
                     <label for="mobile-burger" class="hamburger hamburger--collapse">
@@ -24,16 +24,16 @@ permalink: index
                                 <ul>
                                     {% for item in site.data.lang[site.lang].navigation %}
                                     <li class="nav-item">
-                                        <a href="{{item.url}}">{{item.title}}</a>
+                                        <a href="{{item.url}}{{item.httpurl}}">{{item.title}}</a>
                                     </li>
                                      {%endfor%}
                                 </ul>
                             </div>
-                        </div>         
+                        </div>
                     </div>
                </nav>
-       <div class="container-fluid" id="hero">      
-        <header class="container">               
+       <div class="container-fluid" id="hero">
+        <header class="container">
                <nav class="desktop-nav container">
                     <div class="row middle-xs nav-items">
                             <div class="col-sm-5">
@@ -43,11 +43,11 @@ permalink: index
                                 <div class="row end-xs">
                                     {% for item in site.data.lang[site.lang].navigation %}
                                     <div class="col nav-item">
-                                        <a href="{{item.url}}">{{item.title}}</a>
+                                        <a href="{{item.url}}{{item.httpurl}}">{{item.title}}</a>
                                     </div>
                                      {%endfor%}
                                 </div>
-                            </div>       
+                            </div>
                     </div>
                </nav>
            </header>
@@ -67,7 +67,7 @@ permalink: index
                        </div>
                     </div>
            </section>
-        </div>  
+        </div>
         <section class="container-fluid features" id="about">
                 <div class="site-section container">
                    <div class="row middle-xs">
@@ -120,7 +120,7 @@ permalink: index
                     </div>
                    </div>
         </section>
-        <section class="container-fluid" id="download"> 
+        <section class="container-fluid" id="download">
                 <div class="site-section container">
                    <div class="row">
                        <div class="col-xs-12">
@@ -140,7 +140,7 @@ permalink: index
                        </div>
                    </div>
                 </div>
-           </section>    
+           </section>
             {% include footer.html %}
      </div>
   </body>
