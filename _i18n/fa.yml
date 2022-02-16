@@ -1,43 +1,44 @@
 global:
-  language: English
-  lang-class: english
-  download: Download
+  language: Farsi
+  lang-class: farsi
+  download: دانلود
 
 langs:
   en: English
   es: Español
   fr: Français
+  fa: Farsi
 
 home:
-  android4download: Android Wallet for Monero
-  docs: Docs
-  multiple: Multiple Wallets
-  multiple_para: With Monerujo, you can seamlessly move back and forth between several wallets. Making a new one is as simple as a few taps.
-  qr: QR Code Scanning
-  qr_para: Typing in Monero addresses manually is a pain. That's why Monerujo comes with a built in QR scanner. Just scan and then send. It's that easy.
-  open-source: Open Source
-  open-source_para: Monerujo is completely open source. This means that anyone and everyone can look at our code to ensure security. You can have peace of mind and know that your money is safe, something that would not be present if we were proprietary software.
-  btc: Pay BTC Addresses
-  btc_para: With the power of the SideShift.ai service, Monerujo can pay any BTC address. Just scan the QR code or paste the BTC address into the send field, and the magic happens seamlessly in the background.
-  download: Download Monerujo
-  download_para: Monerujo is available for download in the ecosystems below
+  android4download: کیف پول مونرو برای اندروید
+  docs: اسناد
+  multiple: چندین کیف پول
+  multiple_para: با مونروجو، شما می‌توانید در لحظه بین چند کیف پول جابه‌جا شوید. ساخت یک کیف جدید به سادگی چند کلیک است.
+  qr: اسکن کد کیوآر
+  qr_para: وارد کردن دستی آدرس‌های مونرو یک دردسر است. برای همین مونروجو به همراه یک اسکنر داخلی کیوآر ارائه می‌شود. فقط اسکن و ارسال کنید. به همین راحتی.
+  open-source: متن باز
+  open-source_para: مونروجو کاملاً متن باز است. به این معنا که هرکس و همه‌کس می‌تواند به کد ما نگاه کند تا از امنیت برنامه اطمینان حاصل کند. می‌توانید با خیال راحت بخوابید و بدانید که وجوه شما امن است، چیزی که اگر این نرم‌افزار مالکیت‌طلبانه بود امکان نداشت.
+  btc: پرداخت به آدرس‌های بیتکوین
+  btc_para: با قدرت‌گیری از سرویس SideShift.ai، مونروجو می‌تواند به هر آدرس بیتکوین پرداخت انجام دهد. فقط کافیست که آدرس بیتکوین را اسکن کرده یا در بخش ارسال وارد کنید و جادو در پس‌زمینه در عین حال اتفاق میفتد.
+  download: دانلود مونروجو
+  download_para: مونروجو برای دانلود در سرویس‌های زیر موجود است
 
 resources:
-  resources: Resources
-  construction: Under construction. Check back soon.
+  resources: منابع
+  construction: درحال ساخت. لطفا بعدا مراجعه کنید.
 
 blog:
-  title: Recent News
-  summary: Here you'll find some news about Monerujo
-  author: Posted by
-  date: Posted at
+  title: اخبار اخیر
+  summary: در اینجا میتوانید بعضی اخبار دربارهٔ مونروجو را ببینید
+  author: پست توسط
+  date: پست در
 
 footer:
-  help: Need help?
-  help_para: Contact us at
-  donate: Donate
-  donate_para: If you want to support Monerujo, please send XMR to the following address
-  resources: Resources
-  github-docs: GitHub Documentation
-  monero: The Monero Project
-  license: Licensing Information
+  help: کمک نیاز دارید؟
+  help_para: با ما با این آدرس تماس بگیرید
+  donate: اهدائیه
+  donate_para: اگر قصد پشتیبانی از مونروجو را دارید، لطفا مونرو به آدرس زیر بفرستید.
+  resources: منابع
+  github-docs: اسناد گیت‌هاب
+  monero: پروژهٔ مونرو
+  license: اطلاعات گواهینامهٔ استفاده و انتشار
