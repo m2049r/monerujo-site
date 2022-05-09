@@ -49,6 +49,10 @@ If you are already using the new version (2.x):
 2. You'll be ask where to save a .zip file containing the wallet's files. You can easily open it anywhere and restore your wallet in another program or in a different Monerujo installation.
 3. Write down the wallet's CrAzYpass. The wallet file inside the .zip file will be encrypted with it. You'll need it to restore that wallet anywhere or anytime else.
 
+If you need to restore your wallet, you migrated from 1.x to 2.x in the past but you did not explicitly make a backup from the app:
+1. Find the files inside the ´monerujo´ folder.
+2. Create a zip of _only_ the files `<wallet>`, `<wallet>.keys` and `<wallet>.address.txt`.
+3. Import this zip into 2.x using the `Import wallet` option.
 ---
 But besides all this, always, please, always...
 #### WRITE DOWN YOUR SEED
