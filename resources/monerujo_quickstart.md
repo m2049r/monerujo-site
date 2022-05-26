@@ -32,3 +32,17 @@ There are several languages available, along with their source texts in markdown
 
 ![front]({% link resources/brochure/it/welcometomonero_a.jpg %})
 ![back]({% link resources/brochure/it/welcometomonero_b.jpg %})
+
+## Português
+
+![front]({% link resources/brochure/pt/welcometomonero_pt_a.jpg %})
+![back]({% link resources/brochure/pt/welcometomonero_pt_b.jpg %})
+
+## Português brasileiro
+
+![front]({% link resources/brochure/pt-br/welcometomonero_pt-br_a.jpg %})
+![back]({% link resources/brochure/pt-br/welcometomonero_pt-br_b.jpg %})
+
+## فارسی
+![front]({% link resources/brochure/fa/welcometomonero_fa_a.jpg %})
+![back]({% link resources/brochure/it/welcometomonero_fa_b.jpg %})
